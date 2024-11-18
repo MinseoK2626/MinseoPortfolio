@@ -1,0 +1,14 @@
+button {
+    display: block; /* 버튼을 블록 요소로 설정 */
+    margin: 10px auto; /* 중앙 정렬 및 간격 추가 */
+    padding: 10px 20px;
+    background-color: #4285f4;
+    color: white;
+    font-size: 16px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+button:hover {
+    background-color: #357ae8;
+}

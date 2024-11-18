@@ -1,28 +1,21 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+    <link rel="stylesheet" href="style.css">
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Minseo's Portfolio</title>
     <style>
-        body {
-            font-family: Arial, sans-serif;
-            text-align: center;
-            margin-top: 50px;
-        }
         button {
+            display: block; /* 버튼을 블록 요소로 설정 */
+            margin: 10px auto; /* 버튼을 위아래로 간격 추가하고 중앙 정렬 */
+            padding: 10px 20px;
             background-color: #4285f4;
             color: white;
-            border: none;
-            padding: 10px 20px;
             font-size: 16px;
-            margin: 10px 0; /* 위아래 간격 추가 */
-            cursor: pointer;
+            border: none;
             border-radius: 5px;
-            display: block; /* 각 버튼을 새로운 줄로 배치 */
-            width: 200px; /* 버튼 너비를 고정 (선택 사항) */
-            margin-left: auto;
-            margin-right: auto;
+            cursor: pointer;
         }
         button:hover {
             background-color: #357ae8;
@@ -33,10 +26,8 @@
     <h1>Minseo's Portfolio</h1>
     <p>Welcome to my page!</p>
 
-    <!-- 버튼 1 -->
-    <button onclick="window.location.href='finance.html';">Insights on Finance!</button>
-
-    <!-- 버튼 2 -->
-    <button onclick="window.location.href='passion.html';">Explore my passion!</button>
+    <!-- 버튼 -->
+    <button onclick="window.location.href='secondpage.html';">Insights on Finance!</button>
+    <button onclick="window.location.href='minseouva.html';">Explore my passion!</button>
 </body>
 </html>
