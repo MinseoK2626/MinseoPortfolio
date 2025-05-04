@@ -1,6 +1,6 @@
 button {
-    display: block; /* 버튼을 블록 요소로 설정 */
-    margin: 10px auto; /* 중앙 정렬 및 간격 추가 */
+    display: block;
+    margin: 10px auto;
     padding: 10px 20px;
     background-color: #4285f4;
     color: white;
@@ -9,6 +9,7 @@ button {
     border-radius: 5px;
     cursor: pointer;
 }
+
 button:hover {
     background-color: #357ae8;
 }
@@ -18,4 +19,47 @@ button:hover {
     color: #1a73e8;
     font-weight: bold;
     margin-bottom: 20px;
+}
+
+.container {
+    max-width: 800px;
+    margin: auto;
+}
+
+.header {
+    text-align: center;
+    margin-bottom: 40px;
+}
+
+.header img {
+    width: 150px;
+    border-radius: 50%;
+    margin-top: 20px;
+}
+
+.section {
+    margin-bottom: 60px;
+}
+
+.centered-img {
+    width: 60%;
+    max-width: 500px;
+    border-radius: 10px;
+    display: block;
+    margin: 20px auto;
+}
+
+hr {
+    border: none;
+    height: 1px;
+    background-color: #ccc;
+    margin: 40px 0;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 20px;
+    line-height: 1.6;
+    background-color: #f9f9f9;
+    color: #333;
 }
